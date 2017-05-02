@@ -35,13 +35,16 @@
 header      {
         position: relative;
                 }
+.left {float:right;; margin-left:0; margin-right:10px; margin-bottom:5px}
 .busca,
 .menu-departamentos     {
+
         background-color: #dcdcdc;
         font-weight: bold;
         text-transform: uppercase;
-        margin-right: 10px;
+        margin-left: : 10px;
         width: 230px;
+
                 }
 .busca h2,
 .busca form,
@@ -63,7 +66,7 @@ header      {
        text-decoration: none;
          }
 .menu-departamentos{
-      clear: left;
+      clear: right;
       text-transform: uppercase;
              }
 .item-menu{
@@ -73,8 +76,8 @@ header      {
 .busca imput[type=search] { width: 170px; }
 .busca,
 .menu-departamentos{
-        float: left;
-        clear: left;
+        float: right;
+        clear: right;
                 }
 .destaque{
         margin-top: 10px;
